@@ -104,15 +104,14 @@ export default function Home() {
       </div>
 
       <div className='flex flex-col before:h-[0px] before:w-[100px] after:h-[30px] after:w-[100px] opacity-50 items-left z-10 max-w-5xl justify-between w-full h-full'>
-        <a
+        <p className="m-3 text-xs font-semibold text-left lg:text-left lg:text-xs">
+          Any Questions? <a className='hover:text-indigo-200'
           href="mailto:dev@jonghyunlee.tech"
           target="_blank"
           rel="noopener noreferrer"
-        >
-        <p className="m-3 text-xs font-semibold text-left lg:text-left lg:text-xs hover:text-indigo-100">
-          Any Questions? click here to contact us.
+          >click here
+          </a> to contact us.
       </p>
-      </a>
       </div>
     </main>
   )
